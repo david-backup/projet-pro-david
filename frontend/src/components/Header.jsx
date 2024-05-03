@@ -1,7 +1,11 @@
+import logo from "../assets/logo.png";
+
 const header = () => {
   return (
     <header>
-      <div className="navigation"></div>
+      <div className="navigation">
+        <img src={logo} alt="logo david" />
+      </div>
     </header>
   );
 };

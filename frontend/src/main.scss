@@ -2,3 +2,8 @@
 @use "./sass/settings/fonts";
 @use "./sass/utils/variables";
 @use "./sass/utils/mixins";
+@use "./sass/pages/HomePage";
+@use "./sass/pages/LoginPage";
+@use "./sass/layout/Header";
+@use "./sass/layout/Label";
+@use "./sass/layout/Input";
