@@ -1,9 +1,12 @@
-import React from "react";
+import FormLogin from "../components/FormLogin";
 
 const LoginPage = () => {
   return (
     <main>
-      <section></section>
+      <section>
+        <h1>Formulaire de connexion</h1>
+        <FormLogin />
+      </section>
     </main>
   );
 };
