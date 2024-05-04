@@ -43,6 +43,20 @@ const FormLogin = () => {
             text={"Se connecter"}
           />
         </Link>
+        <Link to="/create-account">
+          <Button
+            type={"submit"}
+            className={"login_btn button"}
+            text={"Créer un compte"}
+          />
+        </Link>
+        <Link to="/create-account">
+          <Button
+            type={"submit"}
+            className={"login_btn button"}
+            text={"Mot de passe oublié ?"}
+          />
+        </Link>
       </form>
     </div>
   );

@@ -1,2 +1,13 @@
 @import "../utils/Mixins.scss";
 @import "../utils/Variables.scss";
+
+button {
+  @include lato;
+  font-size: 1.3em;
+  width: 250px;
+  padding: 7px 0px;
+  border-radius: 20px;
+  background-color: $third_color;
+  color: $primary_color;
+  border: 2px solid $option100_color;
+}
