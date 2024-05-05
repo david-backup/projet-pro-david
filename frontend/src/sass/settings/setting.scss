@@ -2,6 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
+@import "../utils/Mixins.scss";
+@import "../utils/Variables.scss";
 html,
 body,
 div,
@@ -116,6 +119,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   margin: 0;
+  background-color: $background_color;
 }
 #root {
   display: flex;
