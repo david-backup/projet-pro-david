@@ -2,12 +2,21 @@
 @import "../utils/Variables.scss";
 
 button {
+  @include shadow;
   @include lato;
   font-size: 1.3em;
   width: 250px;
   padding: 7px 0px;
   border-radius: 20px;
   background-color: $third_color;
-  color: $primary_color;
+  color: $black_color;
   border: 2px solid $option100_color;
+  transition: background-color 350ms ease, color 350ms ease, border 350ms ease;
+  cursor: pointer;
+
+  &:hover {
+    color: $third_color;
+    background-color: $primary_color;
+    border: 2px solid $third_color;
+  }
 }

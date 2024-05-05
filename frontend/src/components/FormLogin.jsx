@@ -50,7 +50,7 @@ const FormLogin = () => {
             text={"Créer un compte"}
           />
         </Link>
-        <Link to="/create-account">
+        <Link to="/mdp-forgot">
           <Button
             type={"submit"}
             className={"login_btn button"}

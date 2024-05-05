@@ -1,2 +1,19 @@
 @import "../utils/Mixins.scss";
 @import "../utils/Variables.scss";
+
+input {
+  @include shadow;
+  width: 400px;
+  height: 55px;
+  font-size: 1.2em;
+  padding: 0 10px;
+  border-radius: 10px;
+  background-color: $third_color;
+  color: $black_color;
+  border: 2px solid $option100_color;
+  outline: none;
+  &::placeholder {
+    font-size: 0.8em;
+    color: $option100_color;
+  }
+}

@@ -1,2 +1,10 @@
 @import "../utils/Mixins.scss";
 @import "../utils/Variables.scss";
+
+label {
+  @include roboto;
+  font-weight: 500;
+  font-size: 1.2em;
+  padding-left: 3px;
+  color: $black_color;
+}
